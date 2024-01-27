@@ -1,0 +1,12 @@
+.pd-body{
+    padding: 30px;
+}
+
+
+
+:where(.css-dev-only-do-not-override-1qhpsh8).ant-card .ant-card-body {
+    padding: 0;
+    border-radius: 0 0 8px 8px;
+}
+
+

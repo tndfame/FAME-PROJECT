@@ -1,0 +1,114 @@
+
+.me-right-custom {
+    margin-right: 1rem!important;
+}
+
+.logout-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #ff4d4f; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.2s;
+    cursor: pointer;
+    border: 1.5px solid transparent;
+  }
+  
+  .logout-button:hover {
+    transform: scale(1.03);
+    color: white;
+    border-color: rgb(95, 0, 0); 
+  }
+    
+
+.content-wrapper {
+    padding: 24px;
+    background-image: linear-gradient(180deg, #ff807c, #fd4b47);
+    color: #fff;
+    padding: 10rem;
+    height: auto;
+}
+
+
+  
+.image-column img {
+    height: auto;
+    width: 100%;
+}
+
+
+.custom-button {
+    color: #787878;
+    text-decoration: none; 
+    transition: color 0.3s; 
+  }
+  
+.custom-button:hover {
+color: #e21c23;
+}
+
+.custom-button:hover > span > svg {
+color: #787878;
+}
+
+
+
+.ant-btn.custom-button {
+    color: #787878 !important;
+    text-decoration: none; 
+    transition: color 0.3s; 
+  }
+  
+  .ant-btn.custom-button:hover {
+    color: #e21c23 !important;
+  }
+  
+  .ant-btn.custom-button:hover .anticon-environment {
+    color: #787878 !important; 
+  }
+
+  .ant-btn.custom-button:not(:hover) .anticon-environment {
+    color: #787878 !important;
+  }
+  
+
+  
+  .slider {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    padding: 10px; 
+  }
+  
+  .slide {
+    flex: 0 0 auto;
+    margin-right: 15px;
+    scroll-snap-align: start;
+    border-radius: 8px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; 
+  }
+  
+  .controls {
+    margin-top: 10px;
+  }
+  
+  button {
+    margin-right: 10px;
+  }
+
+
+.pd-custom{
+  padding: 14px;
+}
+
+
+.ant-drawer .ant-drawer-body {
+  padding: 0px;
+}
